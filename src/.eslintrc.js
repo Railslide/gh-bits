@@ -33,7 +33,7 @@ module.exports = {
         'flowtype/require-return-type': 2,
         'flowtype/require-valid-file-annotation': 2,
         'flowtype/sort-keys': [2, 'asc'],
-        'indent': ['error', 4, {"SwitchCase": 1}],
+        'indent': ['error', 4, {'SwitchCase': 1}],
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'always'],
