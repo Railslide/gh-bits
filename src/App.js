@@ -6,6 +6,7 @@ import {
     View,
 } from 'react-native';
 import TopBar from './ScoreBar';
+import ActionList from './ActionList';
 
 
 
@@ -14,6 +15,7 @@ export default class App extends Component<{}> {
         return (
             <View style={styles.container}>
                 <TopBar score={23} />
+                <ActionList/>
             </View>
         );
     }
